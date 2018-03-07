@@ -12,11 +12,15 @@ nav ul li{
     text-align: center;
     display: inline;
     list-style-type: none;
+    clear: both;
 }
 
 nav ul li a{
+    position: fixed;
+
     padding: 8px;
-    background-color: rgba(252, 255, 91, 0.09);
+    background-color: #f9f9f9;
+
 }
 
 header {
@@ -183,13 +187,42 @@ div.circleM{
 
 }
 
+div.bullets{
+    display: inline-block;
+    position:relative;
+
+    width: 2em;
+    height: 2em;
+    background: #ffb626;
+    -moz-border-radius: 1em;
+    -webkit-border-radius: 1em;
+    border-radius: 6em;
+}
+
+.bulletNumber{
+    position:absolute;
+    display: inline-block;
+    font-size: 1.5em;
+    margin-top: 0.1em;
+    margin-left: -0.95em;
+    color: #000000;
+    font-family: "Helvetica Neue";
+}
+
 .free{
     color: #ffd43f;
     opacity: 0.25;
 }
 
+#criteria ul, li{
+    text-align: center;
+    list-style-type: none;
+    font-family: Lato;
+    color: #f9f9f9;
+}
+
 address{
-    background-color: #8cffb5;
+    background-color: #477f70;
     padding: 2em;
     font-family: "Helvetica Neue";
 }
