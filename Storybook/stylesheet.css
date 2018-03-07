@@ -4,15 +4,23 @@ html{
 }
 
 main{
-    margin-top: 10em;
-    margin-bottom: 1em;
+    /*margin-top: 10em;
+    margin-bottom: 1em;*/
+    position: relative;
+    /*overflow: hidden;*/
+    margin: 2em;
+}
+
+section{
+    padding:3em 1em 1em;
+    width:100%;
+
 }
 
 nav ul li{
     text-align: center;
     display: inline;
     list-style-type: none;
-    clear: both;
 }
 
 nav ul li a{
@@ -25,7 +33,7 @@ nav ul li a{
 
 header {
     position: center;
-    margin-top: 10em;
+    margin-top: 5em;
     margin-left: 10em;
     margin-right: 10em;
     margin-bottom: 10em;
